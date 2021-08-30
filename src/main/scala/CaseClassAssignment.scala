@@ -31,7 +31,7 @@ object CaseClassAssignment {
     println(p3)
     println(p4)
     println(p1 == p2)
-    println("Addition of two case classes: "+p1+p2)
+    println("Addition of two case classes: "+p1.+(p2))
     println("Different between the points: "+p1.distance())
     p1.invert()
   }
